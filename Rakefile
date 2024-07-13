@@ -15,7 +15,7 @@ task :backup do
 end
 
 desc 'install'
-task install: :backup do
+task :install do
   system('git clone git@github.com:Mark24Code/nvim.git  ~/.config/nvim')
 end
 
