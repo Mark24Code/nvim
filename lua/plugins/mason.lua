@@ -11,6 +11,9 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
+        "ruby",
+        "jsx",
+        "typescript",
         -- add more arguments for adding more language servers
       },
     },
