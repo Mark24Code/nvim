@@ -1,8 +1,7 @@
-# AstroNvim Template
+# Mark24 Neovim Config
 
 **NOTE:** This is for AstroNvim v4+
 
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
 ## 🛠️ Installation
 
@@ -32,3 +31,8 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+# Ref
+
+Based on [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+
