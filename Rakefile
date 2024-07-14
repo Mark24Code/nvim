@@ -21,7 +21,28 @@ end
 
 desc 'pre_install'
 task :pre_install do
+  # git curl
+  # system("brew install git curl")
+  # neovim
+  system("brew install neovim")
+
+
+  # lua5.1 & luarocks
+
+  # python node rust | ruby
+
+  # rust utils
+
+  # lsp
   system('pip3 install neovim')
   system('gem install neovim')
   system('npm install -g neovim')
+
+
+  # font
+  system("brew install --cask font-hack-nerd-font")
+  puts "-----------------------------------------------"
+  puts "set your terminal font as `font-hack-nerd-font`"
+  puts "-----------------------------------------------"
+
 end
