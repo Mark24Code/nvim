@@ -8,12 +8,12 @@ return {
   {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
+    -- https://github.com/williamboman/mason-lspconfig.nvim
     opts = {
       ensure_installed = {
         "lua_ls",
-        "ruby",
-        "jsx",
-        "typescript",
+        "ruby_lsp",
+        "tsserver",
         -- add more arguments for adding more language servers
       },
     },
